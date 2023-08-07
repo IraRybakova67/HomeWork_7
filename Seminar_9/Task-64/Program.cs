@@ -2,22 +2,6 @@
 // N = 5 -> "5, 4, 3, 2, 1"
 // N = 8 -> "8, 7, 6, 5, 4, 3, 2, 1"
 
-// string PrintNumber(int n)
-// {
-//     if (n == 1) return n.ToString();
-//     return PrintNumber(n - 1) + ", " + n;
-// }
-
-// int GetInput(string text)
-// {
-//     Console.Write(text);
-//     return Convert.ToInt32(Console.ReadLine());
-// }
-// int n = GetInput("Введите число ");
-// Console.WriteLine($"{PrintNumber(n)}");
-
-
-
 int PrintNumber(int n)
 {
     if (n > 1)
